@@ -22,7 +22,7 @@
 </form>
 
 
-<p id="result">This text will be replaced </p>
+<p id="result">Counter text will be displayed here !!! </p>
 
 <script> 
 correct = 0
@@ -36,11 +36,11 @@ function checkGuess (){
     if(age==nick){     
         alert("You got it right")
         correct = correct+1
-        out.innerHTML = "Correct answer: "+ correct
+        out.innerHTML = "Correct answer: "+ correct + " Wrong answer: "+ wrong
     } else {
         wrong = wrong + 1        
         alert("Wrong Musician")
-        out.innerHTML = "Wrong answer: "+ wrong
+        out.innerHTML = "Correct answer: "+ correct + " Wrong answer: "+ wrong
     }
 }
 </script>
