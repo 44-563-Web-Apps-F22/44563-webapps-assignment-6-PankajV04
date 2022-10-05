@@ -44,7 +44,6 @@
         let airtravel=document.getElementById("air").checked
         let domestictravel=document.getElementById("domestic").checked
         let resorttravel=document.getElementById("resort").checked
-    
         if(airtravel)
         {
             my_vacation.air = true;
@@ -69,8 +68,6 @@
         {
             my_vacation.resort = false;
         }
-        
-    
         document.getElementById("result").innerHTML=JSON.stringify(my_vacation)
     }
     
